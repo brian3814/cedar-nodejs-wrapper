@@ -22,11 +22,11 @@ app.all('/rapidoc*', (req, res) => {
 
 app.use(express.json());
 
-app.get('/health', (req, res)=>{
-  res.send({'test':'test'});
+app.get('/', (req, res)=>{
+  res.send([]);
 });
 
-app.get('/v1*', (req, res) => {
+app.all('/*', (req, res) => {
   cedarProxy.web(req, res);
 });
 

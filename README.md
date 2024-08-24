@@ -6,7 +6,7 @@ This is a node.js-based wrapper around [cedar-agent](https://github.com/permitio
 
 Before starting, make sure that Rust and Cargo are installed. If not installed, visit the [official Rust installation page](https://www.rust-lang.org/tools/install) to install.
 
-Of course, node must be installed as well.
+Of course, [Node.js](https://nodejs.org/en/download/package-manager) must be installed as well.
 
 After all prerequisites have been installed, execut below commands to start up the server.
 
