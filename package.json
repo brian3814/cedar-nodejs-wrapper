@@ -1,0 +1,23 @@
+{
+  "name": "cedar-server-template",
+  "version": "0.1.0",
+  "description": "Cedar policy engine wrapper based on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": "brian3814/cedar-server-template",
+  "dependencies": {
+    "@cedar-policy/cedar-wasm": "^3.3.0",
+    "express": "^4.19.2",
+    "http-proxy": "^1.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0"
+  }
+}
