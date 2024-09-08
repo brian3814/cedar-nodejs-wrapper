@@ -9,6 +9,9 @@
   "author": "",
   "license": "MIT",
   "repository": "brian3814/cedar-server-template",
+  "scripts":{
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "@cedar-policy/cedar-wasm": "^3.3.0",
     "express": "^4.19.2",

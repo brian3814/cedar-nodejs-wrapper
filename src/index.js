@@ -32,7 +32,7 @@ class Main {
 }
 
 async function buildCedar() {
-  if (fs.existsSync(CEDAR_BINARY_PATH)) {
+  if (!fs.existsSync(CEDAR_BINARY_PATH)) {
     console.log('Cedar-agent executable not found, attempt to build it');
 
     try{
